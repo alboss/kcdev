@@ -2,7 +2,7 @@
   "name": "bs3-upgrade",
   "version": "0.1.0",
   "scripts": {
-    "deploy": "surge ./public kc-a11y.surge.sh" // npm run deploy
+    "deploy": "surge ./public kc-a11y.surge.sh"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
