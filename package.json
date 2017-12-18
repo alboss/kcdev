@@ -1,6 +1,9 @@
 {
   "name": "bs3-upgrade",
   "version": "0.1.0",
+  "scripts": {
+    "deploy": "surge ./public kc-a11y.surge.sh" // npm run deploy
+  },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-concat": "~0.4.0",
